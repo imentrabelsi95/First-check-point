@@ -1,0 +1,9 @@
+from math import *
+def question4 (n,m,l):
+    list=[n,m,l]
+    list1=[]
+    for i in range(len(list)):
+        Q= (round(sqrt(2*50*list[i]/30)))
+        list1.append(Q)
+    print(list1)
+question4 (100,150,180)
